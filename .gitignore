@@ -1,0 +1,57 @@
+# Maven build output
+/target/
+
+# Eclipse files
+*.classpath
+*.project
+*.settings/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+out/
+
+# NetBeans files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code files
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Local configuration
+application-local.properties
+application-dev.properties
+
+# Java crash logs
+hs_err_pid*
+
+# Dependency caches
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Git ignore override (for Maven wrapper if needed)
+/mvnw
+/mvnw.cmd
+.mvn/
+
+# Optional: ignore generated docs or reports
+/site/
+
+/books/
+/apache-maven-3.9.6
+/apache-maven-3.9.6-bin.tar.gz
